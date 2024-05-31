@@ -10,6 +10,7 @@ a {
     color: rgb(255, 253, 253);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 
 } 
     
@@ -30,13 +31,24 @@ body{
     font-size: xx-large;
 }
 
-a:hover {
+a{
+    color: white;
+    font-size: xx-large;
+}
+
+.link{
+    color: #db3d87;
+    text-align: center;
+}
+
+
+.home:hover{
     background-color:#db3d87;
     padding-left:10%;
     padding-right: 10%;
     padding-top: 4px;
     padding-bottom: 4px;
-  }
+}
   
 img{
     height:500px;
